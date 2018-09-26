@@ -53,7 +53,7 @@ public class HttpResponse {
             return this;
         }
 
-        public HttpResponse getInstanse(){
+        public HttpResponse build(){
             HttpResponse httpResponse = new HttpResponse();
             httpResponse.httpProtocol = httpProtocol;
             httpResponse.status = status;
